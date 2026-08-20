@@ -10,7 +10,7 @@ if "poder_b" not in st.session_state:
   st.session_state.poder_b = 1
   
 st.write(f"**Pontos:** {st.session_state.pontos:,}")
-st.write(f"**Pontos por Clique:** {st.session_state.pontos_c:,}")
+st.write(f"**Pontos por Clique:** {st.session_state.podder_c:,}")
 
 if st.button("          CLIQUE AQUI         "):
    st.session_state.pontos += st.session_state.poder_c
