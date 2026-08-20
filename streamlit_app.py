@@ -15,9 +15,13 @@ st.write(f"**Pontos por Clique:** {st.session_state.poder_c:,}")
 if st.button("          CLIQUE AQUI         "):
    st.session_state.pontos += st.session_state.poder_c
 
+st.title("Melhorias:")
+
 if st.button("Melhoria = 100 Pts"):
   if st.session_state.pontos >= 100:
      st.session_state.poder_c += st.session_state.poder_b
+     st.session_state.pontos -= 100
+
   
   
 
