@@ -5,4 +5,4 @@ st.title("")
 if "pontos" not in st.session_state:
   st.session_state.pontos = 1
   
-st.write(f"{st.session.state}")
+st.write("st.session.state_pontos")
