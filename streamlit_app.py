@@ -2,5 +2,7 @@ import streamlit as st
 
 st.title("")
 
-st session.state_pontos
+if not st.session.state_pontos:
+  st.session.state_pontos = 67
+
 st.write("pontos")
