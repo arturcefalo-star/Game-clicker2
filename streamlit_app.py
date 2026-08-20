@@ -7,3 +7,5 @@ if "pontos" not in st.session_state:
   
 st.write(f"**Pontos:** {st.session_state.pontos:,}")
 
+st.button("test")
+
