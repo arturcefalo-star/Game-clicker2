@@ -3,7 +3,7 @@ import streamlit as st
 st.title("")
 
 if "pontos" not in st.session_state:
-  st.session_state.pontos = 0
+  st.session_state.pontos = 9999999
 if "poder_c" not in st.session_state:
   st.session_state.poder_c = 1
 if "poder_b" not in st.session_state:
